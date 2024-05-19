@@ -18,7 +18,7 @@ html, body {
   
   #overlay-image {
       position: absolute;
-      top: 20%;
+      top: 30%;
       left: 33%;
       width: 15%; /* Adjust percentage as needed */
       height: auto; /* Maintain aspect ratio */
