@@ -26,7 +26,7 @@ html, body {
   
   #overlay-image-2 {
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 51.5%;
     width: 17%; /* Adjust percentage as needed */
     height: auto; /* Maintain aspect ratio */
@@ -35,4 +35,15 @@ html, body {
   #book-image {
     width: 50%; /* Adjust percentage as needed */
     height: auto; /* Maintain aspect ratio */
+  }
+
+  #book-text {
+    position: absolute;
+    top: 75%;
+    left: 59%;
+    transform: translate(-50%, -50%) rotate(2deg);
+    padding: 10px;
+    display: inline-block;
+    white-space: normal; /* Allow text to wrap */
+    max-width: 500px; /* Adjust maximum width as needed */
   }
